@@ -1,0 +1,8 @@
+graph TD
+    A[Internet] --> B[Route 53]
+    B --> C[WAF]
+    C --> D[ALB]
+    D --> E[EC2 AZ-1]
+    D --> F[EC2 AZ-2]
+    E --> G[RDS Multi-AZ]
+    F --> G

@@ -1,0 +1,15 @@
+graph TD
+    A[Internet] --> B[Internet Gateway]
+    B --> C[VPC 10.0.0.0/16]
+    C --> D[Public Subnet 10.0.1.0/24]
+    C --> E[Private Subnet 10.0.2.0/24]
+    D --> F[EC2 - Web/App Tier]
+    E --> G[RDS - Database Tier]
+    F -->|DB port only| G
+    F --> H[CloudWatch]
+    F --> I[CloudTrail]
+    H --> J[Security Monitoring]
+    I --> J
+    J --> K[Lambda]
+    K --> L[SNS]
+    L --> M[Security Alert]

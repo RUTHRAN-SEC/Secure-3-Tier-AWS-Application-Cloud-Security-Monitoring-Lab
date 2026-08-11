@@ -1,0 +1,5 @@
+# Copy this file to terraform.tfvars and fill in your own values.
+# terraform.tfvars is gitignored — never commit real IPs/secrets.
+
+aws_region  = "ap-south-1"
+admin_ip    = "203.0.113.10/32" # replace with YOUR public IP + /32
