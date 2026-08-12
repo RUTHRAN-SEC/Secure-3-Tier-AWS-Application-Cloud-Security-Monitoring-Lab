@@ -1,6 +1,6 @@
 # Secure 3 Tier AWS Application & Cloud Security Monitoring Lab
 
-A hands on AWS cloud engineering and cloud security lab: design, deploy, secure, monitor, attack-test, and harden a segmented 3-tier web application environment. Built to stay within AWS Free Tier.
+A hands on AWS cloud engineering and cloud security lab: design, deploy, secure, monitor, attack test, and harden a segmented 3-tier web application environment. Built to stay within AWS Free Tier.
 
 
 ## What is This Repo is About 
